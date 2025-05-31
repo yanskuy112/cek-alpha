@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "*.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "DB_HOST": "@kegiatan-harian-db-kegiatan-harian.g.aivencloud.com",
+    "DB_USERNAME": "@avnadmin",
+    "DB_PASSWORD": "@AVNS_d2aIzvgKWTdqGoyNWWN",
+    "DB_DATABASE": "@kegiatan_harian"
+  }
+}
